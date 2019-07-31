@@ -4,13 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>wk-j</groupId>
     <artifactId>app</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.${build}</version>
     <packaging>jar</packaging>
     <name>app</name>
     <url>https://github.com/wk-j</url>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <build>1</build>
     </properties>
     <dependencies>
         <dependency>
